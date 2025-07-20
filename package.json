@@ -1,0 +1,46 @@
+{
+    "name": "projetdevops",
+    "version": "1.0.0",
+    "description": "Microsoft 365 Agents Toolkit Command and Response Bot Sample",
+    "engines": {
+        "node": "18 || 20 || 22"
+    },
+    "author": "Microsoft",
+    "license": "MIT",
+    "main": "./lib/index.js",
+    "scripts": {
+        "dev": "ts-node src/index.ts",
+        "dev:teamsfx": "env-cmd --silent -f .localConfigs npm run dev",
+        "dev:teamsfx:testtool": "env-cmd --silent -f .localConfigs.playground npm run dev",
+        "dev:teamsfx:launch-testtool": "env-cmd --silent -f env/.env.playground teamsapptester start",
+        "build": "tsc --build && shx cp -r ./src/adaptiveCards ./lib/src",
+        "start": "node ./lib/src/index.js",
+        "watch": "nodemon --watch ./src --exec \"npm run start\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com"
+    },
+    "dependencies": {
+        "@microsoft/teams-ai": "^1.7.4",
+        "adaptive-expressions": "^4.23.1",
+        "adaptivecards-templating": "^2.3.1",
+        "botbuilder": "^4.23.2",
+        "dotenv": "^16.5.0",
+        "express": "^5.0.1",
+        "node-fetch": "^3.3.2",
+        "ssh2": "^1.16.0"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "@types/json-schema": "^7.0.15",
+        "@types/node": "^18.19.118",
+        "@types/ssh2": "^1.15.5",
+        "env-cmd": "^10.1.0",
+        "nodemon": "^3.1.7",
+        "shx": "^0.3.4",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
+    }
+}

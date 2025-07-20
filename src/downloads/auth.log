@@ -1,0 +1,548 @@
+Jul 20 11:56:59 yasmineabo-virtual-machine gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+Jul 20 11:56:59 yasmineabo-virtual-machine systemd-logind[1101]: New session c1 of user gdm.
+Jul 20 11:56:59 yasmineabo-virtual-machine systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+Jul 20 11:57:09 yasmineabo-virtual-machine polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 20 11:57:28 yasmineabo-virtual-machine dbus-daemon[1057]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jul 20 11:58:01 yasmineabo-virtual-machine CRON[2084]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 11:58:01 yasmineabo-virtual-machine CRON[2085]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 11:58:01 yasmineabo-virtual-machine CRON[2085]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 11:58:01 yasmineabo-virtual-machine CRON[2084]: pam_unix(cron:session): session closed for user root
+Jul 20 11:58:06 yasmineabo-virtual-machine gdm-password]: gkr-pam: unable to locate daemon control file
+Jul 20 11:58:06 yasmineabo-virtual-machine gdm-password]: gkr-pam: stashed password to try later in open session
+Jul 20 11:58:06 yasmineabo-virtual-machine gdm-password]: pam_unix(gdm-password:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 11:58:06 yasmineabo-virtual-machine systemd-logind[1101]: New session 4 of user yasmineabo.
+Jul 20 11:58:06 yasmineabo-virtual-machine systemd: pam_unix(systemd-user:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 11:58:06 yasmineabo-virtual-machine gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Jul 20 11:58:07 yasmineabo-virtual-machine gnome-keyring-daemon[2147]: The SSH agent was already initialized
+Jul 20 11:58:07 yasmineabo-virtual-machine gnome-keyring-daemon[2147]: The Secret Service was already initialized
+Jul 20 11:58:07 yasmineabo-virtual-machine gnome-keyring-daemon[2147]: The PKCS#11 component was already initialized
+Jul 20 11:58:10 yasmineabo-virtual-machine polkitd(authority=local): Registered Authentication Agent for unix-session:4 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 20 11:58:23 yasmineabo-virtual-machine gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Jul 20 11:58:23 yasmineabo-virtual-machine polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jul 20 11:58:24 yasmineabo-virtual-machine systemd-logind[1101]: Session c1 logged out. Waiting for processes to exit.
+Jul 20 11:58:25 yasmineabo-virtual-machine systemd-logind[1101]: Removed session c1.
+Jul 20 11:58:32 yasmineabo-virtual-machine dbus-daemon[1057]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jul 20 11:59:27 yasmineabo-virtual-machine pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Jul 20 11:59:27 yasmineabo-virtual-machine pkexec[3119]: yasmineabo: Executing command [USER=root] [TTY=unknown] [CWD=/home/yasmineabo] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 20 11:59:38 yasmineabo-virtual-machine sudo: yasmineabo : TTY=pts/0 ; PWD=/home/yasmineabo/Desktop ; USER=root ; COMMAND=/usr/sbin/ip link set ens33 up
+Jul 20 11:59:38 yasmineabo-virtual-machine sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jul 20 11:59:38 yasmineabo-virtual-machine sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 11:59:42 yasmineabo-virtual-machine sudo: yasmineabo : TTY=pts/0 ; PWD=/home/yasmineabo/Desktop ; USER=root ; COMMAND=/usr/sbin/dhclient ens33
+Jul 20 11:59:42 yasmineabo-virtual-machine sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jul 20 12:00:01 yasmineabo-virtual-machine CRON[3159]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:00:01 yasmineabo-virtual-machine CRON[3160]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:00:01 yasmineabo-virtual-machine CRON[3160]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:00:01 yasmineabo-virtual-machine CRON[3159]: pam_unix(cron:session): session closed for user root
+Jul 20 12:02:01 yasmineabo-virtual-machine CRON[3243]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:02:01 yasmineabo-virtual-machine CRON[3244]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:02:01 yasmineabo-virtual-machine CRON[3244]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:02:01 yasmineabo-virtual-machine CRON[3243]: pam_unix(cron:session): session closed for user root
+Jul 20 12:04:01 yasmineabo-virtual-machine CRON[3269]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:04:01 yasmineabo-virtual-machine CRON[3270]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:04:01 yasmineabo-virtual-machine CRON[3270]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:04:01 yasmineabo-virtual-machine CRON[3269]: pam_unix(cron:session): session closed for user root
+Jul 20 12:04:52 yasmineabo-virtual-machine sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 12:05:02 yasmineabo-virtual-machine CRON[3318]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:05:02 yasmineabo-virtual-machine CRON[3318]: pam_unix(cron:session): session closed for user root
+Jul 20 12:06:01 yasmineabo-virtual-machine CRON[3322]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:06:01 yasmineabo-virtual-machine CRON[3323]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:06:01 yasmineabo-virtual-machine CRON[3323]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:06:01 yasmineabo-virtual-machine CRON[3322]: pam_unix(cron:session): session closed for user root
+Jul 20 12:08:01 yasmineabo-virtual-machine CRON[3367]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:08:01 yasmineabo-virtual-machine CRON[3368]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:08:01 yasmineabo-virtual-machine CRON[3368]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:08:01 yasmineabo-virtual-machine CRON[3367]: pam_unix(cron:session): session closed for user root
+Jul 20 12:10:01 yasmineabo-virtual-machine CRON[3388]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:10:01 yasmineabo-virtual-machine CRON[3389]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:10:01 yasmineabo-virtual-machine CRON[3389]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:10:01 yasmineabo-virtual-machine CRON[3388]: pam_unix(cron:session): session closed for user root
+Jul 20 12:12:01 yasmineabo-virtual-machine CRON[3415]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:12:01 yasmineabo-virtual-machine CRON[3416]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:12:01 yasmineabo-virtual-machine CRON[3415]: pam_unix(cron:session): session closed for user root
+Jul 20 12:12:01 yasmineabo-virtual-machine CRON[3416]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:14:01 yasmineabo-virtual-machine CRON[3450]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:14:01 yasmineabo-virtual-machine CRON[3451]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:14:01 yasmineabo-virtual-machine CRON[3451]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:14:01 yasmineabo-virtual-machine CRON[3450]: pam_unix(cron:session): session closed for user root
+Jul 20 12:15:01 yasmineabo-virtual-machine CRON[3468]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:15:01 yasmineabo-virtual-machine CRON[3468]: pam_unix(cron:session): session closed for user root
+Jul 20 12:16:01 yasmineabo-virtual-machine CRON[3472]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:16:01 yasmineabo-virtual-machine CRON[3473]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:16:01 yasmineabo-virtual-machine CRON[3473]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:16:01 yasmineabo-virtual-machine CRON[3472]: pam_unix(cron:session): session closed for user root
+Jul 20 12:17:01 yasmineabo-virtual-machine CRON[3493]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:17:01 yasmineabo-virtual-machine CRON[3493]: pam_unix(cron:session): session closed for user root
+Jul 20 12:18:01 yasmineabo-virtual-machine CRON[3497]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:18:01 yasmineabo-virtual-machine CRON[3498]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:18:01 yasmineabo-virtual-machine CRON[3498]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:18:01 yasmineabo-virtual-machine CRON[3497]: pam_unix(cron:session): session closed for user root
+Jul 20 12:20:01 yasmineabo-virtual-machine CRON[3519]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:20:01 yasmineabo-virtual-machine CRON[3518]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:20:01 yasmineabo-virtual-machine CRON[3519]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:20:02 yasmineabo-virtual-machine CRON[3518]: pam_unix(cron:session): session closed for user root
+Jul 20 12:22:01 yasmineabo-virtual-machine CRON[3536]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:22:01 yasmineabo-virtual-machine CRON[3537]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:22:01 yasmineabo-virtual-machine CRON[3537]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:22:01 yasmineabo-virtual-machine CRON[3536]: pam_unix(cron:session): session closed for user root
+Jul 20 12:24:01 yasmineabo-virtual-machine CRON[3575]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:24:01 yasmineabo-virtual-machine CRON[3576]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:24:01 yasmineabo-virtual-machine CRON[3576]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:24:01 yasmineabo-virtual-machine CRON[3575]: pam_unix(cron:session): session closed for user root
+Jul 20 12:25:01 yasmineabo-virtual-machine CRON[3593]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:25:01 yasmineabo-virtual-machine CRON[3593]: pam_unix(cron:session): session closed for user root
+Jul 20 12:26:01 yasmineabo-virtual-machine CRON[3597]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:26:01 yasmineabo-virtual-machine CRON[3598]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:26:01 yasmineabo-virtual-machine CRON[3598]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:26:01 yasmineabo-virtual-machine CRON[3597]: pam_unix(cron:session): session closed for user root
+Jul 20 12:28:01 yasmineabo-virtual-machine CRON[3617]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:28:01 yasmineabo-virtual-machine CRON[3618]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:28:01 yasmineabo-virtual-machine CRON[3618]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:28:01 yasmineabo-virtual-machine CRON[3617]: pam_unix(cron:session): session closed for user root
+Jul 20 12:30:01 yasmineabo-virtual-machine CRON[3640]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:30:01 yasmineabo-virtual-machine CRON[3640]: pam_unix(cron:session): session closed for user root
+Jul 20 12:30:01 yasmineabo-virtual-machine CRON[3641]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:30:01 yasmineabo-virtual-machine CRON[3639]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:30:01 yasmineabo-virtual-machine CRON[3641]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:30:01 yasmineabo-virtual-machine CRON[3639]: pam_unix(cron:session): session closed for user root
+Jul 20 12:32:01 yasmineabo-virtual-machine CRON[3659]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:32:01 yasmineabo-virtual-machine CRON[3660]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:32:01 yasmineabo-virtual-machine CRON[3660]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:32:01 yasmineabo-virtual-machine CRON[3659]: pam_unix(cron:session): session closed for user root
+Jul 20 12:34:01 yasmineabo-virtual-machine CRON[3696]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:34:01 yasmineabo-virtual-machine CRON[3697]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:34:01 yasmineabo-virtual-machine CRON[3697]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:34:01 yasmineabo-virtual-machine CRON[3696]: pam_unix(cron:session): session closed for user root
+Jul 20 12:35:01 yasmineabo-virtual-machine CRON[3716]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:35:01 yasmineabo-virtual-machine CRON[3716]: pam_unix(cron:session): session closed for user root
+Jul 20 12:36:01 yasmineabo-virtual-machine CRON[3720]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:36:01 yasmineabo-virtual-machine CRON[3721]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:36:01 yasmineabo-virtual-machine CRON[3721]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:36:02 yasmineabo-virtual-machine CRON[3720]: pam_unix(cron:session): session closed for user root
+Jul 20 12:38:01 yasmineabo-virtual-machine CRON[3742]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:38:01 yasmineabo-virtual-machine CRON[3742]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:38:01 yasmineabo-virtual-machine CRON[3741]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:38:01 yasmineabo-virtual-machine CRON[3741]: pam_unix(cron:session): session closed for user root
+Jul 20 12:40:01 yasmineabo-virtual-machine CRON[3760]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:40:01 yasmineabo-virtual-machine CRON[3761]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:40:01 yasmineabo-virtual-machine CRON[3761]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:40:01 yasmineabo-virtual-machine CRON[3760]: pam_unix(cron:session): session closed for user root
+Jul 20 12:42:01 yasmineabo-virtual-machine CRON[3781]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:42:01 yasmineabo-virtual-machine CRON[3782]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:42:01 yasmineabo-virtual-machine CRON[3782]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:42:01 yasmineabo-virtual-machine CRON[3781]: pam_unix(cron:session): session closed for user root
+Jul 20 12:44:01 yasmineabo-virtual-machine CRON[3818]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:44:01 yasmineabo-virtual-machine CRON[3817]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:44:01 yasmineabo-virtual-machine CRON[3818]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:44:01 yasmineabo-virtual-machine CRON[3817]: pam_unix(cron:session): session closed for user root
+Jul 20 12:45:01 yasmineabo-virtual-machine CRON[3835]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:45:01 yasmineabo-virtual-machine CRON[3835]: pam_unix(cron:session): session closed for user root
+Jul 20 12:46:01 yasmineabo-virtual-machine CRON[3840]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:46:01 yasmineabo-virtual-machine CRON[3841]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:46:01 yasmineabo-virtual-machine CRON[3841]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:46:01 yasmineabo-virtual-machine CRON[3840]: pam_unix(cron:session): session closed for user root
+Jul 20 12:48:01 yasmineabo-virtual-machine CRON[3860]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:48:01 yasmineabo-virtual-machine CRON[3861]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:48:01 yasmineabo-virtual-machine CRON[3861]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:48:01 yasmineabo-virtual-machine CRON[3860]: pam_unix(cron:session): session closed for user root
+Jul 20 12:50:01 yasmineabo-virtual-machine CRON[3897]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:50:01 yasmineabo-virtual-machine CRON[3897]: pam_unix(cron:session): session closed for user root
+Jul 20 12:50:01 yasmineabo-virtual-machine CRON[3898]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:50:01 yasmineabo-virtual-machine CRON[3898]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:52:01 yasmineabo-virtual-machine CRON[3915]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:52:01 yasmineabo-virtual-machine CRON[3916]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:52:01 yasmineabo-virtual-machine CRON[3916]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:52:01 yasmineabo-virtual-machine CRON[3915]: pam_unix(cron:session): session closed for user root
+Jul 20 12:54:01 yasmineabo-virtual-machine CRON[3938]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:54:02 yasmineabo-virtual-machine CRON[3938]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:54:02 yasmineabo-virtual-machine CRON[3937]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:54:02 yasmineabo-virtual-machine CRON[3937]: pam_unix(cron:session): session closed for user root
+Jul 20 12:55:01 yasmineabo-virtual-machine CRON[3955]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:55:01 yasmineabo-virtual-machine CRON[3955]: pam_unix(cron:session): session closed for user root
+Jul 20 12:56:01 yasmineabo-virtual-machine CRON[3959]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:56:01 yasmineabo-virtual-machine CRON[3960]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:56:01 yasmineabo-virtual-machine CRON[3959]: pam_unix(cron:session): session closed for user root
+Jul 20 12:56:01 yasmineabo-virtual-machine CRON[3960]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:58:01 yasmineabo-virtual-machine CRON[4033]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 12:58:01 yasmineabo-virtual-machine CRON[4032]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 12:58:01 yasmineabo-virtual-machine CRON[4033]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 12:58:01 yasmineabo-virtual-machine CRON[4032]: pam_unix(cron:session): session closed for user root
+Jul 20 13:00:01 yasmineabo-virtual-machine CRON[4129]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:00:01 yasmineabo-virtual-machine CRON[4130]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:00:01 yasmineabo-virtual-machine CRON[4130]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:00:01 yasmineabo-virtual-machine CRON[4129]: pam_unix(cron:session): session closed for user root
+Jul 20 13:02:01 yasmineabo-virtual-machine CRON[4164]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:02:01 yasmineabo-virtual-machine CRON[4165]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:02:01 yasmineabo-virtual-machine CRON[4165]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:02:01 yasmineabo-virtual-machine CRON[4164]: pam_unix(cron:session): session closed for user root
+Jul 20 13:04:01 yasmineabo-virtual-machine CRON[4182]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:04:01 yasmineabo-virtual-machine CRON[4183]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:04:01 yasmineabo-virtual-machine CRON[4183]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:04:01 yasmineabo-virtual-machine CRON[4182]: pam_unix(cron:session): session closed for user root
+Jul 20 13:05:01 yasmineabo-virtual-machine CRON[4201]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:05:01 yasmineabo-virtual-machine CRON[4201]: pam_unix(cron:session): session closed for user root
+Jul 20 13:06:01 yasmineabo-virtual-machine CRON[4206]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:06:01 yasmineabo-virtual-machine CRON[4207]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:06:01 yasmineabo-virtual-machine CRON[4207]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:06:01 yasmineabo-virtual-machine CRON[4206]: pam_unix(cron:session): session closed for user root
+Jul 20 13:08:01 yasmineabo-virtual-machine CRON[4225]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:08:01 yasmineabo-virtual-machine CRON[4226]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:08:01 yasmineabo-virtual-machine CRON[4226]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:08:01 yasmineabo-virtual-machine CRON[4225]: pam_unix(cron:session): session closed for user root
+Jul 20 13:10:02 yasmineabo-virtual-machine CRON[4243]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:10:02 yasmineabo-virtual-machine CRON[4244]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:10:02 yasmineabo-virtual-machine CRON[4244]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:10:02 yasmineabo-virtual-machine CRON[4243]: pam_unix(cron:session): session closed for user root
+Jul 20 13:12:01 yasmineabo-virtual-machine CRON[4266]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:12:01 yasmineabo-virtual-machine CRON[4267]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:12:01 yasmineabo-virtual-machine CRON[4267]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:12:01 yasmineabo-virtual-machine CRON[4266]: pam_unix(cron:session): session closed for user root
+Jul 20 13:14:01 yasmineabo-virtual-machine CRON[4301]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:14:01 yasmineabo-virtual-machine CRON[4302]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:14:01 yasmineabo-virtual-machine CRON[4302]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:14:01 yasmineabo-virtual-machine CRON[4301]: pam_unix(cron:session): session closed for user root
+Jul 20 13:15:01 yasmineabo-virtual-machine CRON[4318]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:15:01 yasmineabo-virtual-machine CRON[4318]: pam_unix(cron:session): session closed for user root
+Jul 20 13:16:01 yasmineabo-virtual-machine CRON[4323]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:16:01 yasmineabo-virtual-machine CRON[4324]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:16:01 yasmineabo-virtual-machine CRON[4323]: pam_unix(cron:session): session closed for user root
+Jul 20 13:16:01 yasmineabo-virtual-machine CRON[4324]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:17:01 yasmineabo-virtual-machine CRON[4343]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:17:01 yasmineabo-virtual-machine CRON[4343]: pam_unix(cron:session): session closed for user root
+Jul 20 13:18:01 yasmineabo-virtual-machine CRON[4347]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:18:01 yasmineabo-virtual-machine CRON[4348]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:18:01 yasmineabo-virtual-machine CRON[4347]: pam_unix(cron:session): session closed for user root
+Jul 20 13:18:01 yasmineabo-virtual-machine CRON[4348]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:20:01 yasmineabo-virtual-machine CRON[4366]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:20:01 yasmineabo-virtual-machine CRON[4367]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:20:01 yasmineabo-virtual-machine CRON[4367]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:20:01 yasmineabo-virtual-machine CRON[4366]: pam_unix(cron:session): session closed for user root
+Jul 20 13:22:01 yasmineabo-virtual-machine CRON[4387]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:22:01 yasmineabo-virtual-machine CRON[4386]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:22:01 yasmineabo-virtual-machine CRON[4387]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:22:01 yasmineabo-virtual-machine CRON[4386]: pam_unix(cron:session): session closed for user root
+Jul 20 13:22:45 yasmineabo-virtual-machine gdm-password]: gkr-pam: unlocked login keyring
+Jul 20 13:24:01 yasmineabo-virtual-machine CRON[4454]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:24:01 yasmineabo-virtual-machine CRON[4455]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:24:01 yasmineabo-virtual-machine CRON[4455]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:24:01 yasmineabo-virtual-machine CRON[4454]: pam_unix(cron:session): session closed for user root
+Jul 20 13:25:01 yasmineabo-virtual-machine CRON[4489]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:25:01 yasmineabo-virtual-machine CRON[4489]: pam_unix(cron:session): session closed for user root
+Jul 20 13:26:01 yasmineabo-virtual-machine CRON[4494]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:26:01 yasmineabo-virtual-machine CRON[4495]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:26:02 yasmineabo-virtual-machine CRON[4495]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:26:02 yasmineabo-virtual-machine CRON[4494]: pam_unix(cron:session): session closed for user root
+Jul 20 13:28:01 yasmineabo-virtual-machine CRON[4538]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:28:01 yasmineabo-virtual-machine CRON[4539]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:28:01 yasmineabo-virtual-machine CRON[4539]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:28:01 yasmineabo-virtual-machine CRON[4538]: pam_unix(cron:session): session closed for user root
+Jul 20 13:30:01 yasmineabo-virtual-machine CRON[4560]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:30:01 yasmineabo-virtual-machine CRON[4559]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:30:01 yasmineabo-virtual-machine CRON[4561]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:30:01 yasmineabo-virtual-machine CRON[4560]: pam_unix(cron:session): session closed for user root
+Jul 20 13:30:01 yasmineabo-virtual-machine CRON[4561]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:30:01 yasmineabo-virtual-machine CRON[4559]: pam_unix(cron:session): session closed for user root
+Jul 20 13:32:01 yasmineabo-virtual-machine CRON[4599]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:32:01 yasmineabo-virtual-machine CRON[4600]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:32:01 yasmineabo-virtual-machine CRON[4600]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:32:01 yasmineabo-virtual-machine CRON[4599]: pam_unix(cron:session): session closed for user root
+Jul 20 13:34:01 yasmineabo-virtual-machine CRON[4631]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:34:01 yasmineabo-virtual-machine CRON[4630]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:34:01 yasmineabo-virtual-machine CRON[4631]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:34:01 yasmineabo-virtual-machine CRON[4630]: pam_unix(cron:session): session closed for user root
+Jul 20 13:35:01 yasmineabo-virtual-machine CRON[4648]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:35:01 yasmineabo-virtual-machine CRON[4648]: pam_unix(cron:session): session closed for user root
+Jul 20 13:36:01 yasmineabo-virtual-machine CRON[4652]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:36:01 yasmineabo-virtual-machine CRON[4653]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:36:01 yasmineabo-virtual-machine CRON[4653]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:36:01 yasmineabo-virtual-machine CRON[4652]: pam_unix(cron:session): session closed for user root
+Jul 20 13:38:01 yasmineabo-virtual-machine CRON[4674]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:38:01 yasmineabo-virtual-machine CRON[4675]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:38:01 yasmineabo-virtual-machine CRON[4675]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:38:01 yasmineabo-virtual-machine CRON[4674]: pam_unix(cron:session): session closed for user root
+Jul 20 13:40:01 yasmineabo-virtual-machine CRON[4695]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:40:01 yasmineabo-virtual-machine CRON[4694]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:40:01 yasmineabo-virtual-machine CRON[4695]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:40:01 yasmineabo-virtual-machine CRON[4694]: pam_unix(cron:session): session closed for user root
+Jul 20 13:45:47 yasmineabo-virtual-machine systemd-logind[1102]: New seat seat0.
+Jul 20 13:45:47 yasmineabo-virtual-machine systemd-logind[1102]: Watching system buttons on /dev/input/event0 (Power Button)
+Jul 20 13:45:47 yasmineabo-virtual-machine systemd-logind[1102]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jul 20 13:45:48 yasmineabo-virtual-machine sshd[1213]: Server listening on 0.0.0.0 port 22.
+Jul 20 13:45:48 yasmineabo-virtual-machine sshd[1213]: Server listening on :: port 22.
+Jul 20 13:45:49 yasmineabo-virtual-machine gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+Jul 20 13:45:49 yasmineabo-virtual-machine systemd-logind[1102]: New session c1 of user gdm.
+Jul 20 13:45:49 yasmineabo-virtual-machine systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+Jul 20 13:46:01 yasmineabo-virtual-machine CRON[1751]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:46:01 yasmineabo-virtual-machine CRON[1752]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:46:01 yasmineabo-virtual-machine CRON[1751]: pam_unix(cron:session): session closed for user root
+Jul 20 13:46:01 yasmineabo-virtual-machine CRON[1752]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:46:17 yasmineabo-virtual-machine dbus-daemon[1047]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jul 20 13:46:34 yasmineabo-virtual-machine polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 20 13:47:37 yasmineabo-virtual-machine gdm-password]: gkr-pam: unable to locate daemon control file
+Jul 20 13:47:37 yasmineabo-virtual-machine gdm-password]: gkr-pam: stashed password to try later in open session
+Jul 20 13:47:37 yasmineabo-virtual-machine gdm-password]: pam_unix(gdm-password:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:47:37 yasmineabo-virtual-machine systemd-logind[1102]: New session 4 of user yasmineabo.
+Jul 20 13:47:38 yasmineabo-virtual-machine systemd: pam_unix(systemd-user:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:47:38 yasmineabo-virtual-machine gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Jul 20 13:47:39 yasmineabo-virtual-machine gnome-keyring-daemon[2148]: The SSH agent was already initialized
+Jul 20 13:47:39 yasmineabo-virtual-machine gnome-keyring-daemon[2148]: The Secret Service was already initialized
+Jul 20 13:47:39 yasmineabo-virtual-machine gnome-keyring-daemon[2148]: The PKCS#11 component was already initialized
+Jul 20 13:47:43 yasmineabo-virtual-machine polkitd(authority=local): Registered Authentication Agent for unix-session:4 (system bus name :1.85 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 20 13:47:50 yasmineabo-virtual-machine gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Jul 20 13:47:50 yasmineabo-virtual-machine systemd-logind[1102]: Session c1 logged out. Waiting for processes to exit.
+Jul 20 13:47:51 yasmineabo-virtual-machine systemd-logind[1102]: Removed session c1.
+Jul 20 13:47:51 yasmineabo-virtual-machine polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jul 20 13:48:01 yasmineabo-virtual-machine CRON[2979]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 13:48:01 yasmineabo-virtual-machine CRON[2980]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 13:48:01 yasmineabo-virtual-machine CRON[2980]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 13:48:01 yasmineabo-virtual-machine CRON[2979]: pam_unix(cron:session): session closed for user root
+Jul 20 13:48:03 yasmineabo-virtual-machine dbus-daemon[1047]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jul 20 16:33:04 yasmineabo-virtual-machine systemd-logind[1102]: New seat seat0.
+Jul 20 16:33:04 yasmineabo-virtual-machine systemd-logind[1102]: Watching system buttons on /dev/input/event0 (Power Button)
+Jul 20 16:33:04 yasmineabo-virtual-machine systemd-logind[1102]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jul 20 16:33:05 yasmineabo-virtual-machine sshd[1190]: Server listening on 0.0.0.0 port 22.
+Jul 20 16:33:05 yasmineabo-virtual-machine sshd[1190]: Server listening on :: port 22.
+Jul 20 16:33:07 yasmineabo-virtual-machine gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+Jul 20 16:33:07 yasmineabo-virtual-machine systemd-logind[1102]: New session c1 of user gdm.
+Jul 20 16:33:08 yasmineabo-virtual-machine systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+Jul 20 16:33:31 yasmineabo-virtual-machine polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.45 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 20 16:33:39 yasmineabo-virtual-machine dbus-daemon[1062]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jul 20 16:34:01 yasmineabo-virtual-machine CRON[2081]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 16:34:01 yasmineabo-virtual-machine CRON[2082]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 16:34:01 yasmineabo-virtual-machine CRON[2082]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 16:34:01 yasmineabo-virtual-machine CRON[2081]: pam_unix(cron:session): session closed for user root
+Jul 20 16:35:01 yasmineabo-virtual-machine CRON[2106]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 16:35:01 yasmineabo-virtual-machine CRON[2106]: pam_unix(cron:session): session closed for user root
+Jul 20 16:36:01 yasmineabo-virtual-machine CRON[2111]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 16:36:01 yasmineabo-virtual-machine CRON[2110]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 16:36:01 yasmineabo-virtual-machine CRON[2111]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 16:36:01 yasmineabo-virtual-machine CRON[2110]: pam_unix(cron:session): session closed for user root
+Jul 20 16:38:01 yasmineabo-virtual-machine CRON[2130]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 16:38:01 yasmineabo-virtual-machine CRON[2131]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 16:38:01 yasmineabo-virtual-machine CRON[2130]: pam_unix(cron:session): session closed for user root
+Jul 20 16:38:01 yasmineabo-virtual-machine CRON[2131]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 16:40:01 yasmineabo-virtual-machine CRON[2155]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 16:40:01 yasmineabo-virtual-machine CRON[2156]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 16:40:01 yasmineabo-virtual-machine CRON[2156]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 16:40:01 yasmineabo-virtual-machine CRON[2155]: pam_unix(cron:session): session closed for user root
+Jul 20 16:41:34 yasmineabo-virtual-machine gdm-password]: gkr-pam: unable to locate daemon control file
+Jul 20 16:41:34 yasmineabo-virtual-machine gdm-password]: gkr-pam: stashed password to try later in open session
+Jul 20 16:41:34 yasmineabo-virtual-machine gdm-password]: pam_unix(gdm-password:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 16:41:34 yasmineabo-virtual-machine systemd-logind[1102]: New session 11 of user yasmineabo.
+Jul 20 16:41:34 yasmineabo-virtual-machine systemd: pam_unix(systemd-user:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 16:41:35 yasmineabo-virtual-machine gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Jul 20 16:41:36 yasmineabo-virtual-machine gnome-keyring-daemon[2213]: The SSH agent was already initialized
+Jul 20 16:41:36 yasmineabo-virtual-machine gnome-keyring-daemon[2213]: The Secret Service was already initialized
+Jul 20 16:41:36 yasmineabo-virtual-machine gnome-keyring-daemon[2213]: The PKCS#11 component was already initialized
+Jul 20 16:41:40 yasmineabo-virtual-machine polkitd(authority=local): Registered Authentication Agent for unix-session:11 (system bus name :1.90 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 20 16:42:00 yasmineabo-virtual-machine dbus-daemon[1062]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jul 20 16:42:01 yasmineabo-virtual-machine CRON[2836]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 16:42:01 yasmineabo-virtual-machine CRON[2840]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 16:42:01 yasmineabo-virtual-machine gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Jul 20 16:42:01 yasmineabo-virtual-machine CRON[2840]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 16:42:01 yasmineabo-virtual-machine polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.45, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jul 20 16:42:03 yasmineabo-virtual-machine systemd-logind[1102]: Session c1 logged out. Waiting for processes to exit.
+Jul 20 16:42:03 yasmineabo-virtual-machine CRON[2836]: pam_unix(cron:session): session closed for user root
+Jul 20 16:42:03 yasmineabo-virtual-machine systemd-logind[1102]: Removed session c1.
+Jul 20 16:43:13 yasmineabo-virtual-machine pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Jul 20 16:43:13 yasmineabo-virtual-machine pkexec[3203]: yasmineabo: Executing command [USER=root] [TTY=unknown] [CWD=/home/yasmineabo] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 20 16:44:01 yasmineabo-virtual-machine CRON[3226]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 16:44:01 yasmineabo-virtual-machine CRON[3225]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 16:44:01 yasmineabo-virtual-machine CRON[3226]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 16:44:01 yasmineabo-virtual-machine CRON[3225]: pam_unix(cron:session): session closed for user root
+Jul 20 16:45:01 yasmineabo-virtual-machine CRON[3245]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 16:45:01 yasmineabo-virtual-machine CRON[3245]: pam_unix(cron:session): session closed for user root
+Jul 20 16:46:01 yasmineabo-virtual-machine CRON[3262]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 16:46:01 yasmineabo-virtual-machine CRON[3265]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 16:46:01 yasmineabo-virtual-machine CRON[3262]: pam_unix(cron:session): session closed for user root
+Jul 20 16:46:01 yasmineabo-virtual-machine CRON[3265]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 16:48:01 yasmineabo-virtual-machine CRON[3305]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 16:48:01 yasmineabo-virtual-machine CRON[3306]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 16:48:01 yasmineabo-virtual-machine CRON[3306]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 16:48:01 yasmineabo-virtual-machine CRON[3305]: pam_unix(cron:session): session closed for user root
+Jul 20 16:50:01 yasmineabo-virtual-machine CRON[3326]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 16:50:01 yasmineabo-virtual-machine CRON[3327]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 16:50:01 yasmineabo-virtual-machine CRON[3327]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 16:50:01 yasmineabo-virtual-machine CRON[3326]: pam_unix(cron:session): session closed for user root
+Jul 20 16:52:01 yasmineabo-virtual-machine CRON[3345]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 16:52:01 yasmineabo-virtual-machine CRON[3346]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 16:52:01 yasmineabo-virtual-machine CRON[3346]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 16:52:01 yasmineabo-virtual-machine CRON[3345]: pam_unix(cron:session): session closed for user root
+Jul 20 16:54:01 yasmineabo-virtual-machine CRON[3366]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 16:54:01 yasmineabo-virtual-machine CRON[3367]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 16:54:01 yasmineabo-virtual-machine CRON[3367]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 16:54:01 yasmineabo-virtual-machine CRON[3366]: pam_unix(cron:session): session closed for user root
+Jul 20 16:55:01 yasmineabo-virtual-machine CRON[3386]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 16:55:01 yasmineabo-virtual-machine CRON[3386]: pam_unix(cron:session): session closed for user root
+Jul 20 16:56:01 yasmineabo-virtual-machine CRON[3390]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 16:56:01 yasmineabo-virtual-machine CRON[3391]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 16:56:01 yasmineabo-virtual-machine CRON[3391]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 16:56:01 yasmineabo-virtual-machine CRON[3390]: pam_unix(cron:session): session closed for user root
+Jul 20 16:58:01 yasmineabo-virtual-machine CRON[3409]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 16:58:01 yasmineabo-virtual-machine CRON[3410]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 16:58:01 yasmineabo-virtual-machine CRON[3410]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 16:58:02 yasmineabo-virtual-machine CRON[3409]: pam_unix(cron:session): session closed for user root
+Jul 20 17:00:01 yasmineabo-virtual-machine CRON[3431]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:00:01 yasmineabo-virtual-machine CRON[3430]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:00:01 yasmineabo-virtual-machine CRON[3431]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:00:01 yasmineabo-virtual-machine CRON[3430]: pam_unix(cron:session): session closed for user root
+Jul 20 17:02:01 yasmineabo-virtual-machine CRON[3449]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:02:01 yasmineabo-virtual-machine CRON[3450]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:02:01 yasmineabo-virtual-machine CRON[3450]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:02:01 yasmineabo-virtual-machine CRON[3449]: pam_unix(cron:session): session closed for user root
+Jul 20 17:04:01 yasmineabo-virtual-machine CRON[3468]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:04:01 yasmineabo-virtual-machine CRON[3469]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:04:01 yasmineabo-virtual-machine CRON[3469]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:04:01 yasmineabo-virtual-machine CRON[3468]: pam_unix(cron:session): session closed for user root
+Jul 20 17:05:01 yasmineabo-virtual-machine CRON[3487]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:05:01 yasmineabo-virtual-machine CRON[3487]: pam_unix(cron:session): session closed for user root
+Jul 20 17:06:01 yasmineabo-virtual-machine CRON[3491]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:06:01 yasmineabo-virtual-machine CRON[3492]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:06:01 yasmineabo-virtual-machine CRON[3492]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:06:01 yasmineabo-virtual-machine CRON[3491]: pam_unix(cron:session): session closed for user root
+Jul 20 17:08:01 yasmineabo-virtual-machine CRON[3510]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:08:01 yasmineabo-virtual-machine CRON[3511]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:08:01 yasmineabo-virtual-machine CRON[3511]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:08:01 yasmineabo-virtual-machine CRON[3510]: pam_unix(cron:session): session closed for user root
+Jul 20 17:10:01 yasmineabo-virtual-machine CRON[3529]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:10:01 yasmineabo-virtual-machine CRON[3530]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:10:01 yasmineabo-virtual-machine CRON[3530]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:10:01 yasmineabo-virtual-machine CRON[3529]: pam_unix(cron:session): session closed for user root
+Jul 20 17:12:01 yasmineabo-virtual-machine CRON[3549]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:12:01 yasmineabo-virtual-machine CRON[3550]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:12:01 yasmineabo-virtual-machine CRON[3550]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:12:01 yasmineabo-virtual-machine CRON[3549]: pam_unix(cron:session): session closed for user root
+Jul 20 17:14:01 yasmineabo-virtual-machine CRON[3570]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:14:01 yasmineabo-virtual-machine CRON[3569]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:14:01 yasmineabo-virtual-machine CRON[3570]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:14:01 yasmineabo-virtual-machine CRON[3569]: pam_unix(cron:session): session closed for user root
+Jul 20 17:15:01 yasmineabo-virtual-machine CRON[3588]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:15:01 yasmineabo-virtual-machine CRON[3588]: pam_unix(cron:session): session closed for user root
+Jul 20 17:16:01 yasmineabo-virtual-machine CRON[3593]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:16:01 yasmineabo-virtual-machine CRON[3592]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:16:01 yasmineabo-virtual-machine CRON[3593]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:16:01 yasmineabo-virtual-machine CRON[3592]: pam_unix(cron:session): session closed for user root
+Jul 20 17:17:01 yasmineabo-virtual-machine CRON[3611]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:17:01 yasmineabo-virtual-machine CRON[3611]: pam_unix(cron:session): session closed for user root
+Jul 20 17:18:01 yasmineabo-virtual-machine CRON[3616]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:18:01 yasmineabo-virtual-machine CRON[3615]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:18:01 yasmineabo-virtual-machine CRON[3616]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:18:01 yasmineabo-virtual-machine CRON[3615]: pam_unix(cron:session): session closed for user root
+Jul 20 17:20:01 yasmineabo-virtual-machine CRON[3636]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:20:01 yasmineabo-virtual-machine CRON[3637]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:20:01 yasmineabo-virtual-machine CRON[3637]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:20:01 yasmineabo-virtual-machine CRON[3636]: pam_unix(cron:session): session closed for user root
+Jul 20 17:22:01 yasmineabo-virtual-machine CRON[3658]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:22:02 yasmineabo-virtual-machine CRON[3657]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:22:02 yasmineabo-virtual-machine CRON[3658]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:22:02 yasmineabo-virtual-machine CRON[3657]: pam_unix(cron:session): session closed for user root
+Jul 20 17:24:01 yasmineabo-virtual-machine CRON[3677]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:24:01 yasmineabo-virtual-machine CRON[3676]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:24:01 yasmineabo-virtual-machine CRON[3677]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:24:01 yasmineabo-virtual-machine CRON[3676]: pam_unix(cron:session): session closed for user root
+Jul 20 17:25:01 yasmineabo-virtual-machine CRON[3695]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:25:01 yasmineabo-virtual-machine CRON[3695]: pam_unix(cron:session): session closed for user root
+Jul 20 17:26:01 yasmineabo-virtual-machine CRON[3728]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:26:01 yasmineabo-virtual-machine CRON[3729]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:26:01 yasmineabo-virtual-machine CRON[3729]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:26:01 yasmineabo-virtual-machine CRON[3728]: pam_unix(cron:session): session closed for user root
+Jul 20 17:28:01 yasmineabo-virtual-machine CRON[3749]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:28:01 yasmineabo-virtual-machine CRON[3750]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:28:01 yasmineabo-virtual-machine CRON[3750]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:28:01 yasmineabo-virtual-machine CRON[3749]: pam_unix(cron:session): session closed for user root
+Jul 20 17:30:01 yasmineabo-virtual-machine CRON[3769]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:30:01 yasmineabo-virtual-machine CRON[3768]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:30:01 yasmineabo-virtual-machine CRON[3770]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:30:01 yasmineabo-virtual-machine CRON[3769]: pam_unix(cron:session): session closed for user root
+Jul 20 17:30:01 yasmineabo-virtual-machine CRON[3770]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:30:01 yasmineabo-virtual-machine CRON[3768]: pam_unix(cron:session): session closed for user root
+Jul 20 17:32:01 yasmineabo-virtual-machine CRON[3794]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:32:01 yasmineabo-virtual-machine CRON[3795]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:32:01 yasmineabo-virtual-machine CRON[3795]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:32:01 yasmineabo-virtual-machine CRON[3794]: pam_unix(cron:session): session closed for user root
+Jul 20 17:34:01 yasmineabo-virtual-machine CRON[3814]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:34:01 yasmineabo-virtual-machine CRON[3815]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:34:01 yasmineabo-virtual-machine CRON[3815]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:34:01 yasmineabo-virtual-machine CRON[3814]: pam_unix(cron:session): session closed for user root
+Jul 20 17:35:01 yasmineabo-virtual-machine CRON[3833]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:35:01 yasmineabo-virtual-machine CRON[3833]: pam_unix(cron:session): session closed for user root
+Jul 20 17:36:01 yasmineabo-virtual-machine CRON[3838]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:36:01 yasmineabo-virtual-machine CRON[3839]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:36:01 yasmineabo-virtual-machine CRON[3839]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:36:01 yasmineabo-virtual-machine CRON[3838]: pam_unix(cron:session): session closed for user root
+Jul 20 17:38:01 yasmineabo-virtual-machine CRON[3857]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:38:01 yasmineabo-virtual-machine CRON[3858]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:38:01 yasmineabo-virtual-machine CRON[3858]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:38:01 yasmineabo-virtual-machine CRON[3857]: pam_unix(cron:session): session closed for user root
+Jul 20 17:40:01 yasmineabo-virtual-machine CRON[3876]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:40:01 yasmineabo-virtual-machine CRON[3877]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:40:01 yasmineabo-virtual-machine CRON[3877]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:40:01 yasmineabo-virtual-machine CRON[3876]: pam_unix(cron:session): session closed for user root
+Jul 20 17:42:01 yasmineabo-virtual-machine CRON[3907]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:42:01 yasmineabo-virtual-machine CRON[3908]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:42:01 yasmineabo-virtual-machine CRON[3908]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:42:01 yasmineabo-virtual-machine CRON[3907]: pam_unix(cron:session): session closed for user root
+Jul 20 17:43:17 yasmineabo-virtual-machine gdm-password]: gkr-pam: unlocked login keyring
+Jul 20 17:44:01 yasmineabo-virtual-machine CRON[4027]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:44:01 yasmineabo-virtual-machine CRON[4028]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:44:01 yasmineabo-virtual-machine CRON[4028]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:44:01 yasmineabo-virtual-machine CRON[4027]: pam_unix(cron:session): session closed for user root
+Jul 20 17:45:04 yasmineabo-virtual-machine CRON[4044]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:45:04 yasmineabo-virtual-machine CRON[4044]: pam_unix(cron:session): session closed for user root
+Jul 20 17:46:01 yasmineabo-virtual-machine CRON[4049]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:46:01 yasmineabo-virtual-machine CRON[4050]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:46:01 yasmineabo-virtual-machine CRON[4050]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:46:01 yasmineabo-virtual-machine CRON[4049]: pam_unix(cron:session): session closed for user root
+Jul 20 17:48:01 yasmineabo-virtual-machine CRON[4070]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:48:01 yasmineabo-virtual-machine CRON[4071]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:48:01 yasmineabo-virtual-machine CRON[4071]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:48:01 yasmineabo-virtual-machine CRON[4070]: pam_unix(cron:session): session closed for user root
+Jul 20 17:48:53 yasmineabo-virtual-machine sshd[4087]: Accepted password for yasmineabo from 192.168.74.1 port 51831 ssh2
+Jul 20 17:48:53 yasmineabo-virtual-machine sshd[4087]: pam_unix(sshd:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:48:53 yasmineabo-virtual-machine systemd-logind[1102]: New session 90 of user yasmineabo.
+Jul 20 17:48:55 yasmineabo-virtual-machine sshd[4223]: Received disconnect from 192.168.74.1 port 51831:11: 
+Jul 20 17:48:55 yasmineabo-virtual-machine sshd[4223]: Disconnected from user yasmineabo 192.168.74.1 port 51831
+Jul 20 17:48:55 yasmineabo-virtual-machine systemd-logind[1102]: Session 90 logged out. Waiting for processes to exit.
+Jul 20 17:48:55 yasmineabo-virtual-machine sshd[4087]: pam_unix(sshd:session): session closed for user yasmineabo
+Jul 20 17:49:00 yasmineabo-virtual-machine systemd-logind[1102]: Removed session 90.
+Jul 20 17:50:03 yasmineabo-virtual-machine CRON[4256]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 20 17:50:04 yasmineabo-virtual-machine CRON[4257]: pam_unix(cron:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:50:07 yasmineabo-virtual-machine CRON[4257]: pam_unix(cron:session): session closed for user yasmineabo
+Jul 20 17:50:07 yasmineabo-virtual-machine CRON[4256]: pam_unix(cron:session): session closed for user root
+Jul 20 17:50:38 yasmineabo-virtual-machine sshd[4274]: Accepted password for yasmineabo from 192.168.74.1 port 51851 ssh2
+Jul 20 17:50:38 yasmineabo-virtual-machine sshd[4274]: pam_unix(sshd:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:50:38 yasmineabo-virtual-machine systemd-logind[1102]: New session 93 of user yasmineabo.
+Jul 20 17:50:39 yasmineabo-virtual-machine sshd[4312]: Received disconnect from 192.168.74.1 port 51851:11: 
+Jul 20 17:50:39 yasmineabo-virtual-machine sshd[4312]: Disconnected from user yasmineabo 192.168.74.1 port 51851
+Jul 20 17:50:39 yasmineabo-virtual-machine sshd[4274]: pam_unix(sshd:session): session closed for user yasmineabo
+Jul 20 17:50:39 yasmineabo-virtual-machine systemd-logind[1102]: Session 93 logged out. Waiting for processes to exit.
+Jul 20 17:50:39 yasmineabo-virtual-machine systemd-logind[1102]: Removed session 93.
+Jul 20 17:50:40 yasmineabo-virtual-machine sshd[4315]: Accepted password for yasmineabo from 192.168.74.1 port 51854 ssh2
+Jul 20 17:50:40 yasmineabo-virtual-machine sshd[4315]: pam_unix(sshd:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:50:40 yasmineabo-virtual-machine systemd-logind[1102]: New session 94 of user yasmineabo.
+Jul 20 17:50:40 yasmineabo-virtual-machine sshd[4353]: Received disconnect from 192.168.74.1 port 51854:11: 
+Jul 20 17:50:40 yasmineabo-virtual-machine sshd[4353]: Disconnected from user yasmineabo 192.168.74.1 port 51854
+Jul 20 17:50:40 yasmineabo-virtual-machine sshd[4315]: pam_unix(sshd:session): session closed for user yasmineabo
+Jul 20 17:50:40 yasmineabo-virtual-machine systemd-logind[1102]: Session 94 logged out. Waiting for processes to exit.
+Jul 20 17:50:40 yasmineabo-virtual-machine systemd-logind[1102]: Removed session 94.
+Jul 20 17:50:57 yasmineabo-virtual-machine sshd[4355]: Accepted password for yasmineabo from 192.168.74.1 port 51864 ssh2
+Jul 20 17:50:57 yasmineabo-virtual-machine sshd[4355]: pam_unix(sshd:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:50:57 yasmineabo-virtual-machine systemd-logind[1102]: New session 95 of user yasmineabo.
+Jul 20 17:50:57 yasmineabo-virtual-machine sshd[4393]: Received disconnect from 192.168.74.1 port 51864:11: 
+Jul 20 17:50:57 yasmineabo-virtual-machine sshd[4393]: Disconnected from user yasmineabo 192.168.74.1 port 51864
+Jul 20 17:50:57 yasmineabo-virtual-machine sshd[4355]: pam_unix(sshd:session): session closed for user yasmineabo
+Jul 20 17:50:57 yasmineabo-virtual-machine systemd-logind[1102]: Session 95 logged out. Waiting for processes to exit.
+Jul 20 17:50:57 yasmineabo-virtual-machine systemd-logind[1102]: Removed session 95.
+Jul 20 17:51:14 yasmineabo-virtual-machine sshd[4396]: Accepted password for yasmineabo from 192.168.74.1 port 51870 ssh2
+Jul 20 17:51:14 yasmineabo-virtual-machine sshd[4396]: pam_unix(sshd:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:51:14 yasmineabo-virtual-machine systemd-logind[1102]: New session 96 of user yasmineabo.
+Jul 20 17:51:15 yasmineabo-virtual-machine sshd[4435]: Received disconnect from 192.168.74.1 port 51870:11: 
+Jul 20 17:51:15 yasmineabo-virtual-machine sshd[4435]: Disconnected from user yasmineabo 192.168.74.1 port 51870
+Jul 20 17:51:15 yasmineabo-virtual-machine systemd-logind[1102]: Session 96 logged out. Waiting for processes to exit.
+Jul 20 17:51:15 yasmineabo-virtual-machine sshd[4396]: pam_unix(sshd:session): session closed for user yasmineabo
+Jul 20 17:51:15 yasmineabo-virtual-machine systemd-logind[1102]: Removed session 96.
+Jul 20 17:51:44 yasmineabo-virtual-machine sshd[4437]: Accepted password for yasmineabo from 192.168.74.1 port 51884 ssh2
+Jul 20 17:51:44 yasmineabo-virtual-machine sshd[4437]: pam_unix(sshd:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:51:44 yasmineabo-virtual-machine systemd-logind[1102]: New session 97 of user yasmineabo.
+Jul 20 17:51:48 yasmineabo-virtual-machine sshd[4477]: Accepted password for yasmineabo from 192.168.74.1 port 51889 ssh2
+Jul 20 17:51:48 yasmineabo-virtual-machine sshd[4477]: pam_unix(sshd:session): session opened for user yasmineabo(uid=1000) by (uid=0)
+Jul 20 17:51:48 yasmineabo-virtual-machine systemd-logind[1102]: New session 98 of user yasmineabo.

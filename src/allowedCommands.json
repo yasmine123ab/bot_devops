@@ -1,0 +1,20 @@
+{
+  "df": "df -h",
+  "uptime": "uptime",
+  "status": "systemctl status nginx",
+
+  "free": "free -m",
+  "top": "top -b -n 1 | head -20",
+  "ps": "ps aux --sort=-%mem | head -10",
+  "disk-usage": "du -sh /* 2>/dev/null | sort -h",
+  "services": "systemctl list-units --type=service --state=running",
+  "logs-nginx": "tail -n 30 /var/log/nginx/error.log",
+  "reboot": "who -b",
+  "ip": "ip a",
+  "ping-google": "ping -c 4 google.com",
+  "docker-ps": "docker ps",
+  "docker-stats": "docker stats --no-stream",
+  "journalctl": "journalctl -p 3 -xb | tail -20",
+  "who": "who",
+  "users": "cut -d: -f1 /etc/passwd"
+}
