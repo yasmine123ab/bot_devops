@@ -6,14 +6,14 @@
 ## Sommaire
 
 * [Description](#description)
-* [Fonctionnalités](#-fonctionnalites)
-* [Prerequis](#-prerequis)
-* [Architecture](#-architecture-vue-rapide)
-* [Structure du projet](#-structure_du_projet)
-* [Installation](#-installation)
-* [Auteurs](#-auteurs)
-* [License](#-license)
-* [Contact](#-contact)
+* [Fonctionnalités](#fonctionnalités)
+* [Prerequis](#prerequis)
+* [Architecture](#architecture-vue-rapide)
+* [Structure du projet](#structure_du_projet)
+* [Installation](#installation)
+* [Auteurs](#auteurs)
+* [License](#license)
+* [Contact](#contact)
 
 ---
 ## Description
@@ -23,7 +23,7 @@ Il fonctionne avec **Microsoft Teams** (Bot Framework) et **Slack**.
 
 ---
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 - Exécution de commandes autorisées (liste blanche)
 - Téléchargement de fichiers logs depuis la VM (`/getlog /chemin/fichier.log`)
@@ -33,7 +33,7 @@ Il fonctionne avec **Microsoft Teams** (Bot Framework) et **Slack**.
 
 ---
 
-## ✅ Prerequis
+## Prerequis
 
 - Node.js 18+
 - VM Linux accessible en SSH (ex: Ubuntu)
@@ -43,14 +43,14 @@ Il fonctionne avec **Microsoft Teams** (Bot Framework) et **Slack**.
 
 ---
 
-## 🧱 Architecture (vue rapide)
+## Architecture (vue rapide)
 
 Bot (Node.js) → SSH/SFTP (`ssh2`) → VM Linux  
 Bot → Nexus (HTTP) → Téléchargement script → Exécution sur VM
 
 ---
 
-## 📂 Structure_du_projet
+## Structure_du_projet
 
 src/
 ├─ handlers/commandHandler.ts # Logique SSH, scripts, logs
@@ -62,7 +62,7 @@ src/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone <repo>
@@ -73,7 +73,7 @@ cp .env.example .env   # Créez votre fichier .env
 
 ---
 
-## 👩‍💻 Auteurs
+## Auteurs
 
 #### Aboudi Yasmine
 * [GitHub] https://github.com/yasmine123ab
@@ -81,12 +81,12 @@ cp .env.example .env   # Créez votre fichier .env
 
 ---
 
-## 📄 License
+## License
 
 La licence du dépôt `bot_devops` est l'Academic Free License v3.0 (AFL-3.0).
 
 ---
 
-## 📬 Contact
+## Contact
 
 Pour toute information, suggestion ou question concernant mon travail, vous pouvez me contacter par e-mail 📧 : [yasmine.aboudi@esprit.tn]
