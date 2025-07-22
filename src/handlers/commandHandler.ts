@@ -80,7 +80,7 @@ export class CommandHandler {
 async function runSSH(cmd: string): Promise<string> {
   const config: ConnectConfig = {
     host: process.env.SSH_HOST!,
-    port: 22,
+    port: parseInt(process.env.SSH_PORT!),
     username: process.env.SSH_USER!,
     password: process.env.SSH_PASS!,
     readyTimeout: 20000,
@@ -114,7 +114,7 @@ async function runSSH(cmd: string): Promise<string> {
 async function retrieveLogFile(remotePath: string): Promise<string> {
   const config: ConnectConfig = {
     host: process.env.SSH_HOST!,
-    port: 22,
+    port: parseInt(process.env.SSH_PORT!),
     username: process.env.SSH_USER!,
     password: process.env.SSH_PASS!,
     readyTimeout: 50000,
@@ -151,7 +151,7 @@ async function retrieveLogFile(remotePath: string): Promise<string> {
 async function uploadToVM(localPath: string, remotePath: string): Promise<void> {
   const config: ConnectConfig = {
     host: process.env.SSH_HOST!,
-    port: 22,
+    port: parseInt(process.env.SSH_PORT!),
     username: process.env.SSH_USER!,
     password: process.env.SSH_PASS!,
     readyTimeout: 50000,
