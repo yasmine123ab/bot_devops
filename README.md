@@ -5,15 +5,15 @@
 
 ## Sommaire
 
-* [Description](#Description)
-* [Fonctionnalités](#Fonctionnalités)
-* [Prerequis](#Prerequis)
-* [Architecture](#Architecture)
-* [Structure_du_projet](#Structure_du_projet)
-* [Installation](#Installation)
-* [Auteurs](#Auteurs)
-* [License](#License)
-* [Contact](#Contact)
+* [Description](#description)
+* [Fonctionnalités](#-fonctionnalites)
+* [Prerequis](#-prerequis)
+* [Architecture](#-architecture-vue-rapide)
+* [Structure du projet](#-structure_du_projet)
+* [Installation](#-installation)
+* [Auteurs](#-auteurs)
+* [License](#-license)
+* [Contact](#-contact)
 
 ---
 ## Description
@@ -90,5 +90,3 @@ La licence du dépôt `bot_devops` est l'Academic Free License v3.0 (AFL-3.0).
 ## 📬 Contact
 
 Pour toute information, suggestion ou question concernant mon travail, vous pouvez me contacter par e-mail 📧 : [yasmine.aboudi@esprit.tn]
-
-
